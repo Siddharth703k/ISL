@@ -1,9 +1,9 @@
 {
-  "name": "SignLens: Live Sign Language Translator",
-  "short_name": "SignLens",
+  "name": "Signa: Live Sign Language Translator",
+  "short_name": "Signa",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#0f1115",
-  "theme_color": "#3b5bfd",
+  "background_color": "#0c1017",
+  "theme_color": "#8998ff",
   "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
 }

@@ -22,7 +22,7 @@ export class MlpClassifier {
   }
 
   static fromJSON(json) {
-    if (!json || json.format !== MODEL_FORMAT) throw new Error('Not a SignLens model file');
+    if (!json || json.format !== MODEL_FORMAT) throw new Error('Not a Signa model file');
     if (json.featureVersion !== FEATURE_VERSION) {
       throw new Error(`Model uses feature version ${json.featureVersion}, app expects ${FEATURE_VERSION}`);
     }

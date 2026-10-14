@@ -1,0 +1,16 @@
+# Local datasets and generated training files
+data/
+training/hand_landmarker.task
+model/confusion_matrix.png
+
+# Python environments and cache files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
